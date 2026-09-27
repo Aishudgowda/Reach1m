@@ -4,38 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Reach1M - Grow Your Audience</title> 
+  <title>Reach1M - Grow Your Audience</title>
 
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
       background: #f5f7fb;
       color: #111827;
-      line-height: 1.6;
     }
 
     header {
       background: #111827;
       color: white;
-      padding: 18px 7%;
+      padding: 18px 25px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
 
     .logo {
-      font-size: 26px;
+      font-size: 24px;
       font-weight: bold;
-    }
-
-    .logo span {
-      color: #60a5fa;
     }
 
     nav a {
@@ -46,60 +36,41 @@
 
     .hero {
       text-align: center;
-      padding: 80px 20px;
+      padding: 70px 20px 40px;
       background: white;
     }
 
     .hero h1 {
-      font-size: 44px;
-      margin-bottom: 18px;
-    }
-
-    .hero h1 span {
-      color: #2563eb;
+      font-size: 42px;
+      margin-bottom: 15px;
     }
 
     .hero p {
-      max-width: 680px;
-      margin: auto;
-      color: #4b5563;
       font-size: 18px;
+      color: #555;
     }
 
     .section {
-      padding: 60px 20px;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 30px 20px;
       text-align: center;
     }
 
-    .section h2 {
-      font-size: 32px;
-      margin-bottom: 35px;
-    }
-
     .card {
-      max-width: 400px;
-      margin: auto;
       background: white;
-      padding: 35px;
-      border-radius: 18px;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
     }
 
-    .card h3 {
-      font-size: 25px;
-      margin-bottom: 15px;
-    }
-
-    .price {
-      font-size: 42px;
-      font-weight: bold;
-      color: #2563eb;
-      margin-bottom: 15px;
-    }
-
-    .card p {
-      color: #4b5563;
-      margin-bottom: 25px;
+    input {
+      width: 90%;
+      padding: 14px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
     }
 
     .pay-btn {
@@ -107,35 +78,25 @@
       background: #2563eb;
       color: white;
       text-decoration: none;
-      padding: 14px 32px;
+      padding: 14px 30px;
+      margin-top: 15px;
+      border: none;
       border-radius: 10px;
-      font-size: 18px;
+      font-size: 17px;
       font-weight: bold;
+      cursor: pointer;
     }
 
-    .info {
-      max-width: 700px;
-      margin: 30px auto 0;
-      color: #6b7280;
-      font-size: 14px;
+    .pay-btn:hover {
+      opacity: 0.9;
     }
 
     footer {
-      background: #111827;
-      color: #d1d5db;
       text-align: center;
       padding: 25px;
-      margin-top: 40px;
-    }
-
-    @media (max-width: 600px) {
-      .hero h1 {
-        font-size: 32px;
-      }
-
-      nav {
-        display: none;
-      }
+      background: #111827;
+      color: white;
+      margin-top: 50px;
     }
   </style>
 </head>
@@ -143,9 +104,7 @@
 <body>
 
   <header>
-    <div class="logo">
-      Reach<span>1M</span>
-    </div>
+    <div class="logo">Reach1M</div>
 
     <nav>
       <a href="#home">Home</a>
@@ -154,95 +113,123 @@
   </header>
 
 
+  <!-- HOME -->
+
   <section class="hero" id="home">
 
-    <h1>
-      Grow Your <span>Audience</span>
-    </h1>
-<div style="text-align:center; margin:30px auto; max-width:400px;">
+    <h1>Grow Your Audience</h1>
 
-  <h2>🎁 First 50 Users — FREE</h2>
+    <p>
+      Promote your content and connect with relevant audiences
+      through genuine promotional methods.
+    </p>
 
-  <p>Join Reach1M early and get your first promotion free.</p>
-
-  <a href="#free-signup" class="pay-btn">
-    Get Started Free
-  </a>
-
-</div>
-
-<section class="section" id="free-signup">
-
-  <h2>🎁 First 50 Users — FREE</h2>
-
-  <p>Get your first promotion free. Limited to the first 50 users.</p>
-
-  <form action="https://formspree.io/f/xaenpabb" method="POST">
-
-    <input
-      type="text"
-      name="name"
-      placeholder="Your Name"
-      required
-    >
-
-    <input
-      type="email"
-      name="email"
-      placeholder="Your Email"
-      required
-    >
-
-    <input
-      type="url"
-      name="youtube"
-      placeholder="YouTube Video or Channel Link"
- …
+  </section>
 
 
-    
+  <!-- FREE OFFER -->
 
-    
+  <section class="section">
+
+    <div class="card">
+
+      <h2>🎁 First 50 Users — FREE</h2>
+
+      <p>
+        Join Reach1M early and get your first promotion free.
       </p>
 
-  h3>Paid Promotion – ₹199</h3>
+      <a href="#free-signup" class="pay-btn">
+        Get Started Free
+      </a>
 
-<form action="https://formspree.io/f/xzezjqoa" method="POST">
+    </div>
 
-  <input
-    type="text"
-    name="name"
-    placeholder="Your Name"
-    required
-  >
+  </section>
 
-  <input
-    type="email"
-    name="email"
-    placeholder="Your Email"
-    required
-  >
 
-  <input
-    type="url"
-    name="youtube"
-    placeholder="YouTube Video or Channel Link"
-    required
-  >
+  <!-- FREE FORM -->
 
-  <button type="submit" class="pay-btn">
-    Submit Details
-  </button>
+  <section class="section" id="free-signup">
 
-</form>
+    <div class="card">
 
-<br>
+      <h2>🎁 Free Promotion</h2>
 
-<a
-  class="pay-btn"
-  href="https://rzp.io/rzp/R1U4Gsg"
-  target="_blank">
-  Pay Now – ₹199
-</a>    
-        
-</section>
+      <p>
+        Get your first promotion free.
+        Limited to the first 50 users.
+      </p>
+
+      <form
+        action="https://formspree.io/f/xzezjqoa"
+        method="POST"
+      >
+
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          required
+        >
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        >
+
+        <input
+          type="url"
+          name="youtube"
+          placeholder="YouTube Video or Channel Link"
+          required
+        >
+
+        <button type="submit" class="pay-btn">
+          Submit Free Promotion
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+  <!-- PRICING -->
+
+  <section class="section" id="pricing">
+
+    <h2>Simple Pricing</h2>
+
+    <div class="card">
+
+      <h3>Paid Promotion – ₹199</h3>
+
+      <p>
+        Get genuine promotional support for your content.
+      </p>
+
+      <a
+        class="pay-btn"
+        href="https://rzp.io/rzp/R1U4Gsg"
+        target="_blank"
+      >
+        Pay Now – ₹199
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+    © 2026 Reach1M. All rights reserved.
+  </footer>
+
+</body>
+</html>
